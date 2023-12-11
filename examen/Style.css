@@ -1,0 +1,717 @@
+
+
+
+* {
+  color: #f0f0f2;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+html{
+  max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+  background-color: #1d1d1d;
+  background-size: cover;
+}
+.fontweight {
+  font-weight: 20;
+}
+/*header*/
+
+.header {
+  width: 100%;
+  height: 80vh;
+  background-image: url(Pictures/pexels-matúš-burian-5975534.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+.black-font {
+  color: #1d1d1d;
+}
+
+.roundRect {
+  display: flex;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+
+.dashboardTable {
+
+  border-collapse: collapse;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f0f0f2;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 25px 8% 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 80px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #f0f0f2;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #f0f0f2;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.content {
+  margin: 5% 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #f0f0f2;
+  align-content: space-between;
+}
+
+#content-service {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 4%;
+  margin: 2% 5% 0 5%;
+}
+
+.dropdown {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  min-width: 151px;
+  background-color: #a39588;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  text-decoration: underline;
+  display: none;
+  position: absolute;
+  background-color: #bdb2ab;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+}
+.dropdown-content a {
+  color: #f0f0f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.reclame {
+  margin-left: 4%;
+  
+  color: #f0f0f2;
+}
+.reclamebtn {
+  width: 41%;
+  height: 90px;
+  border-radius: 40px;
+  border: #a39588;
+  color: #232221;
+  font-size: 165%;
+}
+.content {
+  margin: 5% 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #f0f0f2;
+  align-content: space-between;
+}
+.info {
+  max-width: 75%;
+}
+.over-ons{
+  margin-bottom: 40px;
+}
+#sign-in-card {
+  max-width: 40%;
+  padding: 0 10% 0 10%;
+  align-items: center;
+  display: block;
+  padding-top: 5%;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  background-color: #bdb2ab;
+}
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  color: #ff0000;
+  position: absolute;
+  content: "";
+  left: 0%;
+  top: 40%;
+  right: 0%;
+  border-top: 4px solid;
+  border-color: inherit;
+  transform: rotate(-10deg);
+}
+.price-sign-in {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-flex;
+}
+.id-icon {
+  float: right;
+  position: relative;
+  transform: rotate(45deg);
+}
+.bonus-sign-in {
+  padding-bottom: 10%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+.input-sign-in {
+  color: #a39588;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#input-sign-in-2 {
+  display: flex;
+}
+#input-a {
+  width: 80%;
+  border: solid 1px black;
+  color: #f0f0f2;
+  background-color: #d4c7bf;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+}
+#input-b {
+  width: 80%;
+  border: solid 1px black;
+  color: #f0f0f2;
+  background-color: #d4c7bf;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+}
+#sign-in-btn {
+  width: 100%;
+  font-size: 100%;
+  background-color: #9c928a;
+  border: 0;
+  border-radius: 8px;
+  margin: 5%;
+}
+#content-lorem {
+  padding: 0 20% 0 10%;
+}
+#service {
+  text-align: center;
+}
+#reviews {
+  display: grid;
+  grid-template-columns:
+    32% 32% 32%
+    4%;
+}
+
+#geslaagd {
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3b3b40;
+  border-radius: 10px;
+}
+#icon-party-popper {
+  color: black;
+  font-size: 300%;
+  margin: 5% 0 2% 0;
+}
+#beoordeling {
+  margin-top: 20%;
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3b3b40;
+  border-radius: 10px;
+}
+#icon-award {
+  color: black;
+  font-size: 300%;
+  margin: 5% 0 2% 0;
+}
+#beveling {
+  margin-top: 40%;
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3b3b40;
+  border-radius: 10px;
+}
+#icon-conversation {
+  color: black;
+  font-size: 300%;
+  margin: 5% 0 2% 0;
+}
+#reviews {
+  padding-bottom: 2%;
+  margin-bottom: 7%;
+  padding-left: 6%;
+  margin-top: 200px;
+  height: 100%;
+  display: flex;
+  grid-template-rows: auto;
+  grid-column-gap: 5%;
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.review-card {
+  padding: 2px;
+  border-radius: 15px;
+  width: 350px;
+  height: 50%;
+  background-color: #f0f0f2;
+  align-content: space-between;
+}
+
+.triangle {
+  margin-left: 5%;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f0f0f2;
+}
+.review-five-stars {
+  padding: 2%;
+  font-size: larger;
+}
+.review-crd-txt {
+  color: #a39588;
+  white-space: normal;
+  margin: 0 5% 5% 5%;
+}
+.review-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.google-icon {
+  font-size: larger;
+  padding: 3% 5% 5% 5%;
+}
+.account-logo {
+  float: left;
+  padding: 0;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-color: #a39588;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+}
+.account-letter {
+  font-size: x-large;
+  padding-top: 10%;
+}
+.account-name {
+  padding-left: 20%;
+}
+#footer-homepage {
+  padding: 5%;
+  background-color: #a39588;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto auto;
+  column-gap: 10%;
+  row-gap: 8%;
+}
+/*proefles css begin*/
+#body-proefrijden {
+  text-align: center;
+}
+.proefles {
+  padding: 5% 20% 0 20%;
+  text-align: center;
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 1px;
+  text-align: center;
+}
+
+.textvak {
+  margin-top: 20px;
+  color: #f0f0f2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+.proefknop {
+  margin-top: 20px;
+  background-color: #a39588;
+  padding: 15px 100px 15px 100px;
+  border-radius: 8px;
+  font-size: larger;
+  border: 0px;
+}
+
+.flex-container {
+  margin-left: 6%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.flex-child {
+  width: 30%;
+  float: left;
+  padding-left: 40%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+}
+#textvak-header {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+}
+.resize {
+  width: 51%;
+}
+#line-header {
+  color: #f0f0f2;
+  width: 5%;
+  margin-left: 25%;
+  height: 5px;
+  background-color: #f0f0f2;
+}
+#midline-hr {
+  margin-top: 3%;
+  color: #f0f0f2;
+  width: 52%;
+  margin-left: 25%;
+  height: 5px;
+  background-color: #f0f0f2;
+}
+#fname {
+  color: #f0f0f2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+#lname {
+  color: #f0f0f2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+#E-mail {
+  color: #f0f0f2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+
+#number {
+  color: #f0f0f2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+
+/*proefles css eind */
+/*login leerling/instructeur css begin*/
+.body-login {
+  text-align: center;
+  padding-top: 10%;
+  margin: 0 32%;
+}
+.gebruikersnaam {
+  margin-top: 10%;
+  height: 7vh;
+}
+.input-gebruikersnaam {
+  margin-top: 2%;
+  border: transparent;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  color: #1d1d1d;
+  font-size: 200%;
+  padding: 2%;
+}
+.password {
+  margin-top: 15%;
+  height: 7vh;
+}
+.input-password {
+  margin-top: 2%;
+  border: transparent;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  color: #1d1d1d;
+  font-size: 200%;
+  padding: 2%;
+}
+.forgot-password {
+  float: left;
+  margin-top: 1%;
+}
+#login-footer {
+  margin-top: 25%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#loginbtn {
+  margin-left: 20%;
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  border: #a39588;
+  background-color: #a39588;
+  font-size: 165%;
+}
+#no-account-login {
+  text-align: left;
+  display: grid;
+}
+#login-intructeur {
+  margin-top: 25%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#forgot-password-instructeur {
+  margin-top: 8%;
+}
+/*login leerling/instructeur css eind*/
+/*Homepageleerling begin*/
+#body-homepageleerling {
+  margin: 1% 5%;
+}
+#navbar-leerling {
+  padding-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar-leerling ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+#navbar-leerling ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #f0f0f2;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+#navbar-leerling ul li:hover::after {
+  width: 100%;
+}
+#text-nieuwsoverzicht {
+  margin-top: 2%;
+  display: flex;
+  align-content: flex-start;
+}
+#btn-text-nieuwsoverzicht {
+  background-color: #a39588;
+  border-radius: 15px;
+  width: 15%;
+  height: 1%;
+}
+#content-nieuwsoverzicht {
+  width: 100%;
+  background-color: #f0f0f2;
+  height: 100%;
+  padding-bottom: 2%;
+}
+#nieuwsoverzicht-content {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#btn-nieuwsoverzicht {
+  border: 0;
+  margin-top: 1%;
+  background-color: #a39588;
+  padding: 1%;
+  border-radius: 10px;
+}
+#pin-icon {
+  position: relative;
+  transform: rotate(40deg);
+}
+#alert-icon {
+  padding-top: 30%;
+}
+#nieuw-alert {
+  display: flex;
+  margin: 1%;
+}
+#nieuw-alert-content {
+  margin-right: 2%;
+  display: flex;
+  border-radius: 3px;
+  padding: 2px;
+  padding-right: 1%;
+  background-color: #5fa5d3;
+  width: fit-content;
+}
+#planner-card {
+  width: 100%;
+  background-color: #f0f0f2;
+  height: 100%;
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 2%;
+}
+.days-button {
+  color: #1d1d1d;
+  font-size: 20px;
+  margin: 4%;
+  padding: 4%;
+  border-radius: 10px;
+}
+#days-card {
+  align-content: space-around;
+  display: grid;
+  width: 50%;
+  padding: 5% 40% 5% 30%;
+}
+#tijden {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 5% 5% 5%;
+}
+.tijden-btn {
+  border-width: 1px;
+  color: #1d1d1d;
+  margin: 8%;
+  padding: 2% 5% 2% 5%;
+  border-radius: 30px;
+}
+#beschikbare-tijden {
+  text-align: center;
+  padding-top: 25%;
+}
+#card-ophaal-locatie {
+  padding-top: 25%;
+  text-align: center;
+  color: #1d1d1d;
+}
+#input-ophaal {
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-align: center;
+  align-self: flex-start;
+  background-color: #f0f0f2;
+  border-width: 1px;
+  width: 70%;
+  height: 15%;
+}
+#text-ophaal-locatie {
+  align-self: flex-end;
+}
+#input-ophaal-postcode {
+  text-align: center;
+  display: grid;
+  margin: auto;
+  width: 70%;
+  grid-template-columns: 50% 50%;
+  height: 15%;
+}
+.input-ophaal-postcode {
+  background-color: #f0f0f2;
+  border-width: 1px;
+  text-align: center;
+}
+#input-ophaal-postcode-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right-width: 0;
+}
+#input-ophaal-postcode-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/*Homepageleerling eind*/
+@media only screen and (max-width: 900px) {
+  .content {
+    display: contents;
+  }
+  #sign-in-card{
+    display: block;
+    margin-top: 50px;
+    margin: 40px;
+    max-width: unset;
+  }
+
+  .reclame {
+    width: 100%;
+  }
+  .over-ons {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+body{
+  background-image: url(https://uploads.sarvgyan.com/2014/08/event-management.jpg);
+
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 200px;
+}
+
+h2{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+
+}
+p{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+
+}
+a{
+  color: antiquewhite;
+  text-decoration: none;
+  background-color: rgb(8, 8, 8);
+  margin-left: 750px;
+}
